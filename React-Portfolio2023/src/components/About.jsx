@@ -1,8 +1,8 @@
-function Portfolio() {
+function About() {
     return (
         <div> 
             
         </div>
     );
 }
-export default Portfolio;
+export default About;
