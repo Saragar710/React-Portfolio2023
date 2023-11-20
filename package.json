@@ -2,7 +2,7 @@
   "name": "react-portfolio2023",
   "version": "1.0.0",
   "description": "",
-  "main": "vite.config.js",
+  "main": "main.jsx",
   "scripts": {
     "dev": "vite",
     "start": "vite",
