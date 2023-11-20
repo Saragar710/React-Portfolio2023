@@ -1,7 +1,9 @@
-function About() {
+import '../styles/About.css'
+
+const About =() => {
     return (
         <div> 
-            
+
         </div>
     );
 }

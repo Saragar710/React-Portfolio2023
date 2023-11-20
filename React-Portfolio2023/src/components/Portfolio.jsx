@@ -1,4 +1,6 @@
-function Portfolio() {
+import '../styles/Portfolio.css'
+
+const Portfolio= ()  =>{
     return (
         <div> 
             

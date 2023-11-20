@@ -7,7 +7,7 @@ const styles = {
     },
 }
 
-function Navbar() {
+const Navbar =()  => {
     return (
         <nav style={style.navbarStyle} className='navbar'>
             <a href="/">ABOUT ME</a>

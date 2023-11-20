@@ -1,4 +1,6 @@
-function Resume() {
+import '../styles/Resume.css'
+
+const Resume = () => {
     return (
         <div> 
             
