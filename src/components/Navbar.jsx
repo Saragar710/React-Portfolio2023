@@ -2,7 +2,7 @@ import '../styles/Navbar.css';
 
 const styles = {
     navbarStyle: {
-        background: '',
+        background: 'FDCFF3',
         justifyContent: 'flex-end',
     },
 }
