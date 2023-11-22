@@ -7,7 +7,7 @@ import './App.css';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import Contact from '/components/Contact';
+import Contact from ' ./src./components/Contact';
 // import Header from './component/Header';
 
 function App() {
