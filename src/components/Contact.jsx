@@ -83,4 +83,4 @@ const Contact = () => {
     );
 }
 // export default Contact;
-export default Form;
+export default { Contact, Form};

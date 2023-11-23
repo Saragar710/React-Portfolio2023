@@ -13,7 +13,7 @@ const Footer =()  => {
         <div style={style.footerStyle} className='footer'>
             <a href="/">github</a>
             <a href="/">Linkedin</a>
-            <a href="/"><Stackoverflow></Stackoverflow></a>
+        
             
         </div>
     );
