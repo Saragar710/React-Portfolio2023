@@ -7,8 +7,8 @@ import './App.css';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import Contact from ' ./src./components/Contact';
-// import Header from './component/Header';
+import Contact from ' ./components/Contact';
+
 
 function App() {
  //const [count, setCount] = useState(0)

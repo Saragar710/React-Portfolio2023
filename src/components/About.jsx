@@ -3,7 +3,9 @@ import './styles/About.css'
 const About =() => {
     return (
         <div> 
-            <p></p>
+            <p>
+                I am a Front End Webdeveloper. 
+            </p>
         </div>
     );
 }
