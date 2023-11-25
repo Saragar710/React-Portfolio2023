@@ -4,7 +4,7 @@ import './styles/Portfolio.css'
 
 const styles = {
     PortfolioStyles: {
-        background: 'C297B8'
+        background: '#C297B8'
     }
 }
 const Portfolio= ()  =>{
@@ -13,7 +13,7 @@ const Portfolio= ()  =>{
          <div className="container">
                     <h1 className="Projects">Employee Tracker</h1>
                     <img
-                    className="Employee Tracker"
+                    className="Employee-Tracker"
                     src={`https://github.com/Saragar710/Employee-Trackerv1`}
                     alt="Empoyee Tracker"
                     />
@@ -21,7 +21,7 @@ const Portfolio= ()  =>{
                 <div className="conatiner">
                     <h1 className="Projects">Express Note Taker</h1>
                     <img
-                    className="Express Note Taker"
+                    className="Express-Note-Taker"
                     src={`https://github.com/Saragar710/Express-Note-Taker092023 `}
                     alt="Express Note Taker"
                     />
@@ -29,7 +29,7 @@ const Portfolio= ()  =>{
                 <div className="container">
                     <h1 className="Projects">Weather Forecast</h1>
                     <img 
-                    className='Weather Forecast'
+                    className='Weather-Forecast'
                     src={` https://github.com/Saragar710/Weather-Forecast-For-Aug-2023`}
                     alt="Weather Forecast"/>
                 </div>

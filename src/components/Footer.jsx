@@ -1,9 +1,9 @@
 import './styles/Footer.css';
 
 
-const styles = {
+const style = {
     footerStyle: {
-        background: 'DE89BE',
+        background: '#DE89BE',
         justifyContent: 'flex-end',
     },
 }

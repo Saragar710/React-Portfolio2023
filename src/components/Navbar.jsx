@@ -1,10 +1,11 @@
+import React from 'react';
 import './styles/Navbar.css';
 export default function Navbar() {
-    const linkStyle = { border: '1px black', padding: '5px'};
+    const linkStyle = { border: '1px solid black', padding: '5px'};
     
     return (
-        <nav className="main-header-menu">
-           <div style={linkStyle}>
+      <nav className="main-header-menu">
+        <div style={linkStyle}>
           <a href="#">ABOUT ME</a>
         </div>
         <div style={linkStyle}>
@@ -16,9 +17,9 @@ export default function Navbar() {
         <div style={linkStyle}>
           <a href="#">RESUME</a>
         </div>
-        </nav>
-    )
-}
+      </nav>
+    );
+  }
 
 // const styles = {
 //     navbarStyle: {
