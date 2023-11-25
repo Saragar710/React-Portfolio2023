@@ -1,12 +1,13 @@
 import './styles/About.css'
+import '.assets/Raven'
 
+console.log(Raven);
+function About() {
+    return <img src={Raven} alt="Raven" />;
+}
 const About =() => {
     return (
-        <div> 
-            <div className='container'
-        <img
-            src={` "C:\Users\Sarag\OneDrive\Pictures\Saved Pictures\Raven.png"`}
-            />
+    <div>
             <p>
                 I am a Front End Webdeveloper. I am excited to continue to learn and grow in my new career path.
             </p>
