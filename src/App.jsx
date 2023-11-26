@@ -7,12 +7,12 @@ import './App.css';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import Contact from ' ./components/Contact';
+import Contact from './components/Contact';
 
 
 function App() {
  //const [count, setCount] = useState(0)
-  
+ 
   return (
     <>
     <div >
