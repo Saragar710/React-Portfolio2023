@@ -12,6 +12,12 @@ function About() {
             <p>
                 I am a Front End Webdeveloper. I am excited to continue to learn and grow in my new career path.
             </p>
+            <p>
+                summary
+            </p>
+            <p>
+                why you should hire me
+            </p>
         </div>
     );
 }
