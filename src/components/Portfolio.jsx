@@ -23,6 +23,7 @@ const Portfolio= ()  =>{
                     <img
                     className="Express-Note-Taker"
                     src={`https://github.com/Saragar710/Express-Note-Taker092023 `}
+                    //https://express-note-taker092023-fb3cb27dd87e.herokuapp.com/
                     alt="Express Note Taker"
                     />
                 </div>
@@ -31,12 +32,14 @@ const Portfolio= ()  =>{
                     <img 
                     className='Weather-Forecast'
                     src={` https://github.com/Saragar710/Weather-Forecast-For-Aug-2023`}
+                    //https://saragar710.github.io/Weather-Forecast-For-Aug-2023/
                     alt="Weather Forecast"/>
                 </div>
                 <div className='clubBook'>
                     <h1 className="Projects">clubBook</h1>
                     <img 
                     src={`https://github.com/Saragar710/ClubBook`}
+                    //https://club-book-688a8712a651.herokuapp.com/
                     alt="clubBook"
                     />
                 </div>
