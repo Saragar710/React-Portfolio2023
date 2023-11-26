@@ -1,22 +1,38 @@
-import React from 'react';
-import './styles/Footer.css';
+// import React from 'react';
+// import './styles/Footer.css';
 
 
-const style = {
-    footerStyle: {
-        background: '#DE89BE',
-        justifyContent: 'flex-end',
-    },
-}
+// const style = {
+//     footerStyle: {
+//         background: '#DE89BE',
+//         justifyContent: 'flex-end',
+//     },
+// }
+// {/* <a href="/">github</a>
+//     <a href="/">Linkedin</a>
 
-const Footer =()  => {
+//  <div style={style.footerStyle} className='footer'> 
+// </div> */}
+
+
+const Footer = () => {
+    const icons = [
+        {
+            name: "fab fa-github",
+            link: "#"
+        },
+        {
+            name: "fab fa-linkedin",
+            link: "#"
+        }
+    ]
     return (
-        <div style={style.footerStyle} className='footer'>
-            <a href="/">github</a>
-            <a href="/">Linkedin</a>
-        
-            
-        </div>
+
+        <footer className="flex-row px-1">
+            {icons.map(icon => (
+                <a href={icon.link} key={icon.name} target="_blank" rel="noopener referrer"><i className={icon.name}></i></a>
+            ))}
+        </footer>
     );
 }
 export default Footer;
