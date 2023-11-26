@@ -1,5 +1,6 @@
-import './styles/About.css'
-import '../assets/Raven.jpg'
+import React from 'react';
+import './styles/About.css';
+import '../assets/Raven.jpg';
 
 console.log(Raven);
 

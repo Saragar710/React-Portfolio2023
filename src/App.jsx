@@ -1,13 +1,13 @@
 import { useState } from 'react';
 // import reactLogo from './assets/react.svg';
 // import viteLogo from '/vite.svg';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
+import Header from '.src/components/Header';
+import Navbar from '.src/components/Navbar';
 import './App.css';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import About from '.src/components/About';
+import Portfolio from '.src/components/Portfolio';
+import Resume from '.src/components/Resume';
+import Contact from '.src/components/Contact';
 
 
 function App() {

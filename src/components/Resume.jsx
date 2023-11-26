@@ -1,4 +1,5 @@
-import './styles/Resume.css'
+import React from 'react';
+import './styles/Resume.css';
 
 const Resume = () => {
     return (
