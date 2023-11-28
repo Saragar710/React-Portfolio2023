@@ -36,13 +36,15 @@ function Form () {
         setErrorMessage('Please fill out all fields');   
         return;
        
-      };
-      setErrorMessage("");
-    }
+      }
+
      
       setName('');
       setEmail('');
       setMessage('');
+      setErrorMessage("");
+    };
+      
     //};
 
 
@@ -68,7 +70,7 @@ function Form () {
            value={message}
            name="message"
            onChange={handleInputChange}
-           type="message"
+           type="text"
            placeholder="message"
          />
          <button type="submit">Submit</button>
@@ -84,4 +86,4 @@ function Form () {
     );
 };
 // export default Contact;
-export default Contact;
+export default  Form ;

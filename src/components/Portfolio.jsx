@@ -20,7 +20,7 @@ function Portfolio() {
     const [projects] = useState([
         {   path:Express_Notetaker,
             name: 'Express_Notetaker',
-            deploy:"/https://express-note-taker092023-fb3cb27dd87e.herokuapp.com/ ",
+            deploy:"https://express-note-taker092023-fb3cb27dd87e.herokuapp.com ",
             repo: "https://github.com/Saragar710/Express-Note-Taker092023 "
         },
         {
