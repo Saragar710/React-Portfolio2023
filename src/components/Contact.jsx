@@ -6,8 +6,10 @@ function Form () {
     // We are also setting their initial values to an empty string
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
-    const [messsage, setMessage] = useState('');
+    const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+
+  
   
     const handleInputChange = (e) => {
       // Getting the value and name of the input which triggered the change
@@ -20,32 +22,31 @@ function Form () {
         setEmail(inputValue);
       } else if (inputType === 'name') {
         setName(inputValue);
+      } else if(inputValue === 'message') {
+        setMessage(inputValue);
+      }
      
     };
   
     const handleFormSubmit = (e) => {
-     
-      e.preventDefault();
+     e.preventDefault();
   
       
-      if (!validateEmail(email) ) {
-        setErrorMessage('Email is invalid');
-        
+      if (!name || !email || !message) {
+        setErrorMessage('Please fill out all fields');   
         return;
        
       };
+      setErrorMessage("");
     }
      
       setName('');
       setEmail('');
       setMessage('');
-    };
-
-  }
+    //};
 
 
-
-const Contact = () => {
+//  const Contact = () => {
     return (
        <div className="container text-center">
        <form className="form" onSubmit={handleFormSubmit}>
@@ -81,6 +82,6 @@ const Contact = () => {
        </div>
    
     );
-}
+};
 // export default Contact;
-export default { Contact, Form};
+export default Contact;
