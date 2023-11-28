@@ -1,12 +1,12 @@
 import React from 'react';
-// import ResumePdf from '../assets/resumepdf.pdf'
+ import ResumePdf from '../assets/resumepdf.pdf'
 // import '..styles/Resume.css';
 
 function Resume() {
     return (
         <section className='my-5'>
             <div className='my-2'>
-                {/* <p> Download my <a href={ResumePdf}>My Resume</a></p> */}
+                 <p> Download my <a href={ResumePdf} download>My Resume</a></p> 
               <h3> Front End Skills</h3>
               <ul>
                 <li>HTML</li>

@@ -1,11 +1,12 @@
 import React from 'react';
 
+
 function Project({ project }) {
-    const { name, repo, deploy } = project;
+    const {  path, name, repo, deploy } = project;
 
     return (
         <div className='project' key={name}>
-            <img src={require(`../../assets/projects/${name}.jpg`)} alt={name} className='project-img' />
+            <img src={path} alt={name} className='project-img' />
             <div className='project-text'>
                 <h3>
                     <a href={deploy}>{name}</a>{' '}
