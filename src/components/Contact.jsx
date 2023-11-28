@@ -1,5 +1,5 @@
 import {useState} from 'react';
- //import './styles/Contact.css';
+//import './styles/Contact.css';
 
 function Form () {
     // Create state variables for the fields in the form
@@ -41,7 +41,7 @@ function Form () {
       setMessage('');
     };
 
-}
+  }
 
 
 
