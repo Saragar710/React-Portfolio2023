@@ -1,4 +1,10 @@
 .Resume {
     background: color #404340; 
-    margin:auto
+    margin:auto;
+    height: 25%;
+    width: 25%;
+    margin: 25%;
+    padding: 25%;
+    flex-direction: row;
+
     }

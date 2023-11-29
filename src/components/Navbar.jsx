@@ -4,7 +4,7 @@ import '../styles/Navbar.css';
 
 export default function Navbar({currentPage}) {
     // const linkStyle = { border: '1px solid black', padding: '5px'};
-//     const currentPath= window.location.pathname
+   //const currentPage= window.location.pathname
 // console.log(currentPath)
   const pages = ['portfolio', 'contact', 'resume'];
 
@@ -38,4 +38,3 @@ export default function Navbar({currentPage}) {
     );
   }
     
-
