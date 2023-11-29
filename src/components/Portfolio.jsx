@@ -7,7 +7,7 @@ import clubBook from '../assets/projects/clubBook.jpg'
 import Travel_Itinerary from  '../assets/projects/Travel_Itinerary.jpg'
 
 
-// import './styles/Portfolio.css';
+import '../styles/Portfolio.css';
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
- //import './styles/About.css';
+ import '../styles/About.css';
  import Raven from '../assets/Raven-flyingv2.png';
 
 // console.log(Raven);
