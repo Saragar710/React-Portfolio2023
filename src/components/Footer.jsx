@@ -19,11 +19,11 @@ const Footer = () => {
     const icons = [
         {
             name: "fab fa-github",
-            link: "#"
+            link: "#https://github.com/Saragar710"
         },
         {
             name: "fab fa-linkedin",
-            link: "#"
+            link: "#www.linkedin.com/in/saragar710 "
         }
     ]
     return (

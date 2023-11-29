@@ -5,9 +5,14 @@ import React from 'react';
 const styles = {
     headerStyle: {
       background: '#C297B8',
+      color:'#FDCFF3',
+  
+   
+
     },
     headingStyle: {
       fontSize: '100px',
+      
     },
   };
 function Header() {

@@ -1,13 +1,14 @@
 import React from 'react';
  //import './styles/About.css';
- //import '../assets/Raven.jpg';
+ import Raven from '../assets/Raven-flyingv2.png';
 
-//console.log(Raven);
+// console.log(Raven);
 
 function About() {
     return (
     <div>
-            {/* <img src={Raven} alt="Raven" />*/}
+        
+              <img src={Raven} alt="Raven" /> 
 
             <p>
                My name is Sara Garcia. I am a chef, a mother and a wife. I currently work as a Food and Beverage Supervisor of two hotels. As of right now, I run Breakfast for both. I am in charge of Ordering and organizing the food that is delivered to the hotels. I wrote the guidlines for our kitchens in regards to food saftey procedures as well as training all my coworkers. As our hotels grow, we are doing more and more banquets and events. I help prepare the food, setup the conference rooms, deliver and maintain the food served then clean up.  With the help of my amazing coworkers, I am learning spanish. My coworkers are amazing, and all though I like my job, I want more. That is why I decided to go back to school and learn something I have always found facinating. With a few lines of code, you can create an app or a website! Having Stanley Lewis as my instructor was phenomenal. He is so passionate about this industry it is hard to keep up! He has an amazing team. I have worked with alot of different tutors, but Sandy Smith was my absolute favorite. Everyone on this team has been wonderful and supportive. I could not have chosen a better team if I had the chance!

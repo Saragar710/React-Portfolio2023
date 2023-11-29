@@ -1,4 +1,12 @@
 .Header {
     background-color:#FDCFF3 ;
-    margin:auto
+    
+    font-size: 25px;
+    background-image: url("../assets/Raven.png");
+    height: 100px;
+    justify-content: space-around;
+
     }
+body {
+   color:#C297B8;
+}
