@@ -7,6 +7,9 @@ import Portfolio from './components/Portfolio.jsx';
 import Contact from './components/Contact.jsx';
 import Resume from './components/Resume.jsx';
 
+// Import the Font Awesome CSS
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
