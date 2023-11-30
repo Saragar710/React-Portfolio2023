@@ -3,6 +3,8 @@
 ## Description
 This project is my personal Portfolio. It is a small glimpse into my past, present and future. I share what I have done in the past, what job I currently have, and what the future will bring. I have a lot to learn but I am excited for what is in store for me.
 
+## Installation
+
 
 ## Usage
 In this app I use React, Font Awesome, basic CSS, Vite and bootstrap.
