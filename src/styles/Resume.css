@@ -6,5 +6,7 @@
     margin: 100%;
     padding: 100%;
     flex-direction: row; */
-
+    }
+    body {
+        background-color: #fdcff3;
     }
