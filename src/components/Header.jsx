@@ -4,7 +4,7 @@ import React from 'react';
 
 const styles = {
     headerStyle: {
-      background: '#C297B8',
+      background: '#40434e',
       color:'#FDCFF3',
   
    

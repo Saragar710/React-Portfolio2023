@@ -7,6 +7,8 @@ function Resume() {
         <section className='my-5'>
             <div className='my-2'>
                  <p> Download my <a href={ResumePdf} download>My Resume</a></p> 
+                 </div>
+                 <div>
               <h3> Front End Skills</h3>
               <ul>
                 <li>HTML</li>
@@ -17,7 +19,8 @@ function Resume() {
             
               </ul>
 
-
+                </div>
+                <div>
 
             <h3>Back End Skills</h3>
             <ul>
@@ -27,16 +30,6 @@ function Resume() {
                 <li>MongoDB</li>
               
             </ul>
-
-
-
-
-
-
-
-
-
-
 
             </div>
         </section>
