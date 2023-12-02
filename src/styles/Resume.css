@@ -1,12 +1,10 @@
 .Resume {
     background: color #404340; 
     margin: auto;
-    /* height: 25%;
-    width: 100%;
-    margin: 100%;
-    padding: 100%;
-    flex-direction: row; */
+    background-position: right top;
     }
-    body {
-        background-color: #fdcff3;
-    }
+   
+@keyframes example {
+    from {background-color: #fdcff3;}
+    to {background: color #de89be; ;}
+}
