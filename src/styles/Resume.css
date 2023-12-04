@@ -9,6 +9,6 @@
     from {background-color: #fdcff3;}
     to {background: color #de89be; ;}
 }
-.div-fluid {
+.container-fluid {
     width: 100%;
   }
