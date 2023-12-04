@@ -6,6 +6,7 @@ function Resume() {
     return (
         <section className='my-5'>
             <div className='my-2'>
+               
                  <p> Download my <a href={ResumePdf} download>My Resume</a></p> 
                  </div>
                  <div>
@@ -32,6 +33,7 @@ function Resume() {
             </ul>
 
             </div>
+           
         </section>
     );
 }

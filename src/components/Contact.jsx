@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import '../styles/Contact.css';
 
-function Form () {
+function Contact () {
     // Create state variables for the fields in the form
     // We are also setting their initial values to an empty string
     const [email, setEmail] = useState('');
@@ -50,7 +50,7 @@ function Form () {
 
 //  const Contact = () => {
     return (
-       <div className="container text-center">
+       <div className="container  text-center">
        <form className="form" onSubmit={handleFormSubmit}>
        <input
            value={name}
@@ -86,4 +86,4 @@ function Form () {
     );
 };
 // export default Contact;
-export default  Form ;
+export default  Contact ;
