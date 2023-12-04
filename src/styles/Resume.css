@@ -1,7 +1,8 @@
 .Resume {
     background: color #404340; 
     margin: auto;
-    background-position: right top;
+    height:auto;
+    width:auto
     }
    
 @keyframes example {

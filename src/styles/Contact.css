@@ -1,7 +1,12 @@
 .Contact {
-background-color: #de89be ;
-margin:auto
+    background-color:#40434E ;
+    margin:auto;
+    height: 25%;
+    width: 25%;
+    margin: 25%;
+    padding: 25%;
+    flex-direction: row;
 }
-.div-fluid {
+.container-fluid {
     width: 100%;
 }
